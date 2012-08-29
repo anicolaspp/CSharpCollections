@@ -1,7 +1,0 @@
-<Modules>
-  <Module PersistentId="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD" ModuleId="Collections" />
-  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
-  <Module PersistentId="69A995BD-F946-4E17-BE5E-5DC11ECACCDA" ModuleId="ConsoleApplication1" />
-  <Module PersistentId="System.Cache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="System.Cache" />
-  <Module PersistentId="Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Extensions" />
-</Modules>
