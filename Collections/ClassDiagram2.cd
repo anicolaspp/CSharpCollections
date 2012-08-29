@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nikos.Collections.HD_Engine.Allocator" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAECAgAAABAIAAAAAAAAAAIAAAAAAAAAQAAwBA=</HashCode>
+      <FileName>Enginies\Allocator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nikos.Collections.HD_Engine.DriveEngine" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAQAAAAAAgAAAAAAAAAAAAQAAgAA=</HashCode>
+      <FileName>Enginies\DriveEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nikos.Collections.HD_Engine.B_Tree&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACICgAQgQHEAAJUYEmEgFAUAIIEgEYSMBYAAKAFQqCA=</HashCode>
+      <FileName>Trees\BTree\B_Tree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.HD_Engine.B_TreeNode&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQACIIEEABSAAAAEiAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trees\BTree\B_TreeNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.HD_Engine.BT_Head" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAYAAAgAAAAIAAAAAQAgABAAAAIAAAAAABAAA=</HashCode>
+      <FileName>Trees\BTree\BT_Head.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nikos.Collections.HD_Engine.NodeItem" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trees\BTree\NodeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nikos.Collections.Queue&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAABAAAAAAAAQCAAAIBAAEAAAQAAAAAAA=</HashCode>
+      <FileName>Queue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.BinomialHeap&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAIAAAAAAEABAIAIBQAAQCAAAABAAEAAEAAAQQAJA=</HashCode>
+      <FileName>Structs\BinomialHeap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.Dictionary&lt;TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAAEABAQCCAABAQAAAAAAAAEAAAgAABQIAA=</HashCode>
+      <FileName>Structs\Dictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.FibonacciHeap&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAEABAIAAAAAAQCAAAABAAEAAAAAAQQABA=</HashCode>
+      <FileName>Structs\FibonacciHeap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.HeapItem&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Structs\HeapItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nikos.Collections.Pair&lt;T, K&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Structs\Pair.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.SkipList&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAAAAAggAAAAAEAAAEAAEAAAAAAQAAgAAI=</HashCode>
+      <FileName>Structs\SkipList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nikos.Collections.SkipNode&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAAAACAAAAAAAAAAAEA=</HashCode>
+      <FileName>Structs\SkipNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.Stack&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAABAQCAACAAAAEAAAQAAAACAA=</HashCode>
+      <FileName>Structs\Stack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.AVL_Node&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACBCBIAAgAQAAAAAAAAAAAAAAAAACABAAAAAAAA=</HashCode>
+      <FileName>Trees\AVL_Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nikos.Collections.AVL_Tree&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASIAAEQAABAAADAYEAgABAQAEAAAQAAEAABAAABQIDA=</HashCode>
+      <FileName>Trees\AVL_Tree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.BinaryNode&lt;T&gt;" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACBCAAAAAAQAAAAAAAAAAAAAAAAACABAAAAAAAA=</HashCode>
+      <FileName>Trees\BinaryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nikos.Collections.RBNode&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACACAgAAAAAA=</HashCode>
+      <FileName>Trees\RBNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nikos.Collections.RBTree&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAACQAAAAAABBYAABABCQQkAQIAIAEAEAAABJQIBA=</HashCode>
+      <FileName>Trees\RBTree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.Trie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAMQAABAAALAYEAAABAQoAAAAAEAEgAEAAABUIBA=</HashCode>
+      <FileName>Trees\Trie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.TrieNode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQIgAAQAAAACAAAACAACAAAAAAEABA=</HashCode>
+      <FileName>Trees\TrieNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nikos.Collections.TrieNodeList" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trees\TrieNodeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Nikos.Collections.ItemColor&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Trees\RBTree.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Nikos.Collections.Interfaces.IAllocator" Collapsed="true">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAgAA=</HashCode>
+      <FileName>Interfaces\IAllocator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Interfaces.ICloneable&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Interfaces\IClonable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Interfaces.INode&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAIEEAAQAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\INode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Interfaces.IPrint" Collapsed="true">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Interfaces\IPrint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Interfaces.IPriorityQueue&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAEAAAAAAAAAAQCAAAABAAAAAAAAAQQAAA=</HashCode>
+      <FileName>Interfaces\IPriorityQueue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Interfaces.ISizable" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISizable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Interfaces.ITree&lt;T&gt;" Collapsed="true">
+    <Position X="13" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITree.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Graphs.IEdge" Collapsed="true">
+    <Position X="7.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEdge.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Graphs.IGraph" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAgAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nikos.Collections.Graphs.IVertex" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IVertex.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Nikos.Collections.Direction" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nikos.Collections.Color" Collapsed="true">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs\Color.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nikos.Collections.Interfaces.HeapTypePriority" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs\HeapTypePriority.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Nikos.Collections.HD_Engine.ResolveEngineMethod" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enginies\Allocator.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Nikos.Collections.HD_Engine.AllocateEventHandler" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enginies\Allocator.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Nikos.Collections.HD_Engine.UnAllocateEventHandler" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enginies\Allocator.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

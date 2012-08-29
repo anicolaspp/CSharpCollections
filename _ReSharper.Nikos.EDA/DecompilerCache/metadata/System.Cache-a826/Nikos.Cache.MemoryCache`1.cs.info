@@ -1,0 +1,7 @@
+R# version: 5.0.1659.36
+assembly System.Cache, Version=1.0.0.0, Culture=neutral
+  file D:\Projects\System.Cache\System.Cache\bin\Debug\System.Cache.dll mtime 6/11/2010 10:12:13 PM
+referenced assembly Collections, Version=1.0.0.0, Culture=neutral
+  file D:\Projects\Nikos.EDA.Collection\Collections\bin\Debug\Collections.dll mtime 6/23/2010 9:11:30 AM
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll mtime 3/18/2010 5:31:26 PM

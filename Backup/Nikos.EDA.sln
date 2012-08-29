@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs", "Graphs\Graphs.csproj", "{47A09780-189B-4B3E-8F33-4AD2848FE6EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}.Release|Win32.ActiveCfg = Release|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{47A09780-189B-4B3E-8F33-4AD2848FE6EA}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

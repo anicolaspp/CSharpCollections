@@ -1,0 +1,561 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Enginies/f:Allocator.cs" caret="18" fromTop="1" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Cache/f:CacheItem.cs" caret="50" fromTop="2" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:INode.cs" caret="51" fromTop="2" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:FibonacciHeap.cs" caret="77" fromTop="3" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Trees/f:RBTree.cs" caret="97" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Trees/f:AVL_Tree.cs" caret="97" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:BinomialHeap.cs" caret="97" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:CircularLinkedList.cs" caret="97" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Cache/f:MemoryCache.cs" caret="117" fromTop="5" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:IPriorityQueue.cs" caret="116" fromTop="5" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Trees/f:Trie.cs" caret="99" fromTop="5" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Trees/d:BTree/f:B_Tree.cs" caret="117" fromTop="3" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Trees/d:BTree/f:B_TreeNode.cs" caret="15" fromTop="1" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:DisJoinSet.cs" caret="230" fromTop="10" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:AdjacenyListGraph.cs" caret="2795" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:Queue.cs" caret="353" fromTop="15" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:Stack.cs" caret="609" fromTop="14" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Prim.cs" caret="522" fromTop="7" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:ConectedComponents.cs" caret="534" fromTop="14" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:MatrixGraph.cs" caret="1760" fromTop="44" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:IEdge.cs" caret="210" fromTop="7" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:IVertex.cs" caret="106" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:IGraph.cs" caret="498" fromTop="17" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:BFS.cs" caret="0" fromTop="0" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="0" fromTop="0" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Huffman.cs" caret="0" fromTop="0" />
+      <File id="69A995BD-F946-4E17-BE5E-5DC11ECACCDA/f:Program.cs" caret="182" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Topological_Sort.cs" caret="254" fromTop="11" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Kruskal.cs" caret="342" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:AdjacenyListGraph.cs" caret="555" fromTop="15" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:AdjacenyListGraph.cs" caret="2061" fromTop="23" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:AdjacenyListGraph.cs" caret="2795" fromTop="19" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:AdjacenyListGraph.cs" caret="2796" fromTop="5" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:BFS.cs" caret="866" fromTop="22" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:BFS.cs" caret="395" fromTop="14" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:Queue.cs" caret="353" fromTop="15" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:BFS.cs" caret="777" fromTop="18" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="223" fromTop="6" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="1369" fromTop="28" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="1186" fromTop="23" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Structs/f:Stack.cs" caret="609" fromTop="14" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="911" fromTop="9" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="1629" fromTop="22" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="1864" fromTop="27" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="1468" fromTop="20" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="802" fromTop="18" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:DFS.cs" caret="613" fromTop="13" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Prim.cs" caret="1705" fromTop="31" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:IGraph.cs" caret="498" fromTop="17" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Prim.cs" caret="291" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:IVertex.cs" caret="190" fromTop="6" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:IVertex.cs" caret="107" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Prim.cs" caret="918" fromTop="19" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Interfaces/f:IEdge.cs" caret="210" fromTop="7" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Prim.cs" caret="504" fromTop="10" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Prim.cs" caret="1637" fromTop="28" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Prim.cs" caret="1638" fromTop="29" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Prim.cs" caret="169" fromTop="4" />
+      <File id="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD/d:Algorithms/f:Topological_Sort.cs" caret="233" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False" />
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="21" />
+      <Item value="interface" priority="4" />
+      <Item value="where" priority="3" />
+      <Item value="NodeItem`0" priority="0" />
+      <Item value="IComparable" priority="5" />
+      <Item value="ISizable`0" priority="0" />
+      <Item value="IEnumerable`0" priority="1" />
+      <Item value="T`0" priority="12" />
+      <Item value="ITree" priority="4" />
+      <Item value="ICollection" priority="4" />
+      <Item value="bool" priority="0" />
+      <Item value="throw" priority="2" />
+      <Item value="Interfaces" priority="2" />
+      <Item value="int" priority="2" />
+      <Item value="FileStream`0" priority="1" />
+      <Item value="INode" priority="3" />
+      <Item value="get" priority="2" />
+      <Item value="long" priority="14" />
+      <Item value="Stream" priority="1" />
+      <Item value="Stream`0" priority="14" />
+      <Item value="stream" priority="14" />
+      <Item value="IB_Tree" priority="0" />
+      <Item value="IEnumerable" priority="2" />
+      <Item value="class" priority="7" />
+      <Item value="return" priority="40" />
+      <Item value="root" priority="1" />
+      <Item value="ctor" priority="7" />
+      <Item value="item" priority="10" />
+      <Item value="new" priority="21" />
+      <Item value="ABBNode&lt;T&gt;" priority="0" />
+      <Item value="var" priority="6" />
+      <Item value="GetEnumerator`0" priority="1" />
+      <Item value="values" priority="0" />
+      <Item value="Length" priority="4" />
+      <Item value="arrayIndex" priority="5" />
+      <Item value="array" priority="4" />
+      <Item value="IndexOutOfRangeException" priority="1" />
+      <Item value="foreach" priority="7" />
+      <Item value="value" priority="5" />
+      <Item value="false" priority="2" />
+      <Item value="TKey`0" priority="0" />
+      <Item value="TValue`0" priority="1" />
+      <Item value="Pair" priority="1" />
+      <Item value="other" priority="5" />
+      <Item value="null" priority="0" />
+      <Item value="Key" priority="3" />
+      <Item value="m_Collection" priority="1" />
+      <Item value="key" priority="3" />
+      <Item value="Pair&lt;TKey,TValue&gt;" priority="1" />
+      <Item value="node" priority="1" />
+      <Item value="Count" priority="1" />
+      <Item value="C_Root" priority="1" />
+      <Item value="InOrderTreeWalk`0" priority="4" />
+      <Item value="string" priority="2" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="m_header" priority="0" />
+      <Item value="Prefixs`0" priority="4" />
+      <Item value="query" priority="2" />
+      <Item value="NotSupportedException`0" priority="1" />
+      <Item value="_AppDomain`0" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="e" priority="1" />
+      <Item value="this" priority="4" />
+      <Item value="SpecialChar" priority="0" />
+      <Item value="Nikos" priority="2" />
+      <Item value="Extensions" priority="1" />
+      <Item value="Collections" priority="2" />
+      <Item value="Collections`0" priority="0" />
+      <Item value="FileStream" priority="0" />
+      <Item value="OpenOrCreate" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="B_TreeConstructorTestHelper`1" priority="0" />
+      <Item value="BitConverter`0" priority="1" />
+      <Item value="Value" priority="2" />
+      <Item value="data" priority="0" />
+      <Item value="AVL_Tree" priority="3" />
+      <Item value="Advance" priority="5" />
+      <Item value="y" priority="0" />
+      <Item value="Links" priority="1" />
+      <Item value="link" priority="2" />
+      <Item value="Sort`0" priority="0" />
+      <Item value="abstract" priority="3" />
+      <Item value="IComparer" priority="0" />
+      <Item value="AllocatorEngine`0" priority="5" />
+      <Item value="private" priority="4" />
+      <Item value="_id" priority="0" />
+      <Item value="Dictionary" priority="5" />
+      <Item value="TStream`0" priority="6" />
+      <Item value="protected" priority="8" />
+      <Item value="_decriptor" priority="1" />
+      <Item value="base" priority="2" />
+      <Item value="static" priority="3" />
+      <Item value="_stream" priority="23" />
+      <Item value="sealed" priority="0" />
+      <Item value="offset" priority="14" />
+      <Item value="origin" priority="1" />
+      <Item value="buffer" priority="3" />
+      <Item value="count" priority="3" />
+      <Item value="List" priority="0" />
+      <Item value="pair" priority="3" />
+      <Item value="Instances" priority="0" />
+      <Item value="Pair&lt;TStream,AllocatorEngine&gt;" priority="0" />
+      <Item value="A`0" priority="6" />
+      <Item value="void" priority="0" />
+      <Item value="IAllocator`0" priority="7" />
+      <Item value="internal" priority="0" />
+      <Item value="const" priority="0" />
+      <Item value="allocators" priority="13" />
+      <Item value="KeyValuePair" priority="2" />
+      <Item value="override" priority="0" />
+      <Item value="Dictionary&lt;TStream,IAllocator&gt;" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="yield return" priority="0" />
+      <Item value="KeyValuePair&lt;Stream,IAllocator&gt;" priority="0" />
+      <Item value="set" priority="1" />
+      <Item value="KeyValuePair&lt;TStream,IAllocator&gt;" priority="1" />
+      <Item value="TStream" priority="0" />
+      <Item value="Allocator`0" priority="7" />
+      <Item value="Offset" priority="5" />
+      <Item value="m_FatTable" priority="0" />
+      <Item value="Dictionary&lt;float,List&lt;long&gt;&gt;" priority="0" />
+      <Item value="_offset" priority="1" />
+      <Item value="DriveEngine`0" priority="2" />
+      <Item value="engine" priority="4" />
+      <Item value="_engine" priority="9" />
+      <Item value="DriveEngine" priority="3" />
+      <Item value="file" priority="4" />
+      <Item value="head" priority="4" />
+      <Item value="resolveEngineMethod" priority="1" />
+      <Item value="enginePosition" priority="2" />
+      <Item value="engineMethod" priority="3" />
+      <Item value="delegate" priority="0" />
+      <Item value="ResolveEngineMethod`0" priority="1" />
+      <Item value="EngineMethod" priority="0" />
+      <Item value="ResolveEngine`0" priority="0" />
+      <Item value="HD_Engine" priority="0" />
+      <Item value="Advance.HD_Engine" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="is" priority="0" />
+      <Item value="Type`0" priority="0" />
+      <Item value="params" priority="0" />
+      <Item value="object" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.ABBNode`1">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerator`1">
+      <Item value="ToEnumerable`1" priority="56" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:T">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Pair`2">
+      <Item value="Key" priority="1" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Advance.AVL_Node`1">
+      <Item value="Key" priority="1" />
+      <Item value="InOrden`0" priority="0" />
+      <Item value="EmptyEnum`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Advance.AVL_Tree`1">
+      <Item value="Contains`0" priority="1" />
+      <Item value="InOrderTreeWalk`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="ToArray`1" priority="83" />
+      <Item value="First`1" priority="108" />
+      <Item value="Last`1" priority="0" />
+      <Item value="Aggregate`3" priority="26" />
+      <Item value="Where`1" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.TrieNodeList">
+      <Item value="Clear`0" priority="0" />
+      <Item value="Sort`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Nikos.Extensions.Collections.Collections">
+      <Item value="QuickSort`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.BitConverter">
+      <Item value="GetBytes`0" priority="0" />
+      <Item value="ToInt32`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestProject1.MyInt">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.TrieNode">
+      <Item value="Char" priority="2" />
+      <Item value="Sort`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="CompareTo`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="CompareTo`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Advance.HD_Engine.AllocatorEngine">
+      <Item value="_id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Advance.HD_Engine.TStream">
+      <Item value="_decriptor" priority="0" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Flush`0" priority="1" />
+      <Item value="Seek`0" priority="1" />
+      <Item value="SetLength`0" priority="2" />
+      <Item value="Read`0" priority="1" />
+      <Item value="Write`0" priority="1" />
+      <Item value="CanRead" priority="1" />
+      <Item value="CanSeek" priority="1" />
+      <Item value="CanWrite" priority="1" />
+      <Item value="Length" priority="1" />
+      <Item value="Position" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Nikos.Collections.Advance.HD_Engine.AllocatorEngine">
+      <Item value="GetInstance`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="216" />
+      <Item value="Contains`0" priority="107" />
+      <Item value="Contains`1" priority="26" />
+      <Item value="ConvertAll`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.TStream">
+      <Item value="_decriptor" priority="0" />
+      <Item value="Stream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="GetEnumerator`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Advance.Dictionary`2">
+      <Item value="GetEnumerator`0" priority="2" />
+      <Item value="Add`0" priority="1" />
+      <Item value="Clear`0" priority="1" />
+      <Item value="Contains`0" priority="2" />
+      <Item value="CopyTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="28" />
+      <Item value="Value" priority="28" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.DriveEngine">
+      <Item value="Offset" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Advance.HD_Engine.BT_Head">
+      <Item value="EnginePosition" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Advance.HD_Engine.B_Tree`1">
+      <Item value="EngineMethod" priority="0" />
+      <Item value="engineMethod" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="728" />
+      <Item value="static" priority="94" />
+      <Item value="string" priority="765" />
+      <Item value="BinomialHeap" priority="319" />
+      <Item value="INode" priority="63" />
+      <Item value="char" priority="1015" />
+      <Item value="heap" priority="350" />
+      <Item value="new" priority="922" />
+      <Item value="BinomialHeap&lt;char&gt;" priority="57" />
+      <Item value="HeapTypePriority`0" priority="26" />
+      <Item value="input" priority="317" />
+      <Item value="while" priority="159" />
+      <Item value="var" priority="890" />
+      <Item value="class" priority="247" />
+      <Item value="get" priority="32" />
+      <Item value="set" priority="98" />
+      <Item value="BinaryNode" priority="256" />
+      <Item value="node" priority="64" />
+      <Item value="IEnumerable" priority="127" />
+      <Item value="IComparable" priority="127" />
+      <Item value="HNode`0" priority="223" />
+      <Item value="return" priority="447" />
+      <Item value="this" priority="154" />
+      <Item value="other" priority="159" />
+      <Item value="as" priority="63" />
+      <Item value="Key" priority="140" />
+      <Item value="indexer" priority="63" />
+      <Item value="int" priority="220" />
+      <Item value="x" priority="1726" />
+      <Item value="HNode" priority="86" />
+      <Item value="Left" priority="26" />
+      <Item value="Rigth" priority="27" />
+      <Item value="y" priority="190" />
+      <Item value="root" priority="415" />
+      <Item value="Dictionary" priority="170" />
+      <Item value="void" priority="255" />
+      <Item value="HashSet" priority="31" />
+      <Item value="HashSet&lt;char&gt;" priority="28" />
+      <Item value="IDictionary" priority="186" />
+      <Item value="if" priority="735" />
+      <Item value="Proc`0" priority="159" />
+      <Item value="hash" priority="475" />
+      <Item value="value" priority="255" />
+      <Item value="null" priority="478" />
+      <Item value="else" priority="191" />
+      <Item value="foreach" priority="411" />
+      <Item value="item" priority="500" />
+      <Item value="Run`0" priority="31" />
+      <Item value="Count" priority="187" />
+      <Item value="cod" priority="187" />
+      <Item value="yield return" priority="159" />
+      <Item value="PEncode`0" priority="26" />
+      <Item value="result" priority="314" />
+      <Item value="Pair" priority="26" />
+      <Item value="private" priority="123" />
+      <Item value="a" priority="157" />
+      <Item value="b" priority="158" />
+      <Item value="pair" priority="63" />
+      <Item value="IFormatProvider`0" priority="31" />
+      <Item value="Nikos" priority="57" />
+      <Item value="Collections" priority="292" />
+      <Item value="System" priority="63" />
+      <Item value="Generic" priority="53" />
+      <Item value="LinkedList" priority="95" />
+      <Item value="_data" priority="31" />
+      <Item value="ICollection" priority="63" />
+      <Item value="ICloneable" priority="63" />
+      <Item value="T`0" priority="285" />
+      <Item value="LinkedListNode" priority="151" />
+      <Item value="override" priority="95" />
+      <Item value="base" priority="63" />
+      <Item value="Last" priority="127" />
+      <Item value="First" priority="127" />
+      <Item value="protected" priority="130" />
+      <Item value="ctx" priority="31" />
+      <Item value="ctor" priority="31" />
+      <Item value="_count" priority="191" />
+      <Item value="CircularLinkedList" priority="120" />
+      <Item value="Add`0" priority="31" />
+      <Item value="List" priority="145" />
+      <Item value="CLinkedListNode" priority="218" />
+      <Item value="Value" priority="63" />
+      <Item value="Next" priority="31" />
+      <Item value="Previous" priority="31" />
+      <Item value="CLinkedListNode&lt;T&gt;" priority="86" />
+      <Item value="Root" priority="633" />
+      <Item value="rta" priority="31" />
+      <Item value="true" priority="31" />
+      <Item value="false" priority="63" />
+      <Item value="CircularLinkedList&lt;T&gt;" priority="28" />
+      <Item value="ObjectModel" priority="26" />
+      <Item value="Specialized" priority="26" />
+      <Item value="CollectionsUtil`0" priority="26" />
+      <Item value="IEnumerator`0" priority="26" />
+      <Item value="GetEnumerator`0" priority="63" />
+      <Item value="query" priority="63" />
+      <Item value="array" priority="159" />
+      <Item value="Length" priority="81" />
+      <Item value="throw" priority="127" />
+      <Item value="IndexOutOfRangeException" priority="86" />
+      <Item value="InsufficientMemoryException" priority="29" />
+      <Item value="arrayIndex" priority="95" />
+      <Item value="NullReferenceException" priority="28" />
+      <Item value="CopyTo`0" priority="26" />
+      <Item value="MemoryCache" priority="31" />
+      <Item value="B_TreeNode" priority="31" />
+      <Item value="Cache" priority="26" />
+      <Item value="HD_Engine" priority="30" />
+      <Item value="Graphs" priority="61" />
+      <Item value="Graphs.Algorithms" priority="61" />
+      <Item value="Algorithms" priority="26" />
+      <Item value="m_Vertices" priority="31" />
+      <Item value="IEdge`0" priority="31" />
+      <Item value="_edges" priority="64" />
+      <Item value="IGraph`0" priority="220" />
+      <Item value="AdjacenyListGraph`0" priority="128" />
+      <Item value="edge" priority="96" />
+      <Item value="vertex" priority="375" />
+      <Item value="_vertices" priority="30" />
+      <Item value="IVertex`0" priority="155" />
+      <Item value="marked" priority="247" />
+      <Item value="m_Queue" priority="61" />
+      <Item value="graph" priority="410" />
+      <Item value="Queue`0" priority="30" />
+      <Item value="in" priority="61" />
+      <Item value="m_Stack" priority="30" />
+      <Item value="DFS_Recursive`0" priority="30" />
+      <Item value="vertex1" priority="31" />
+      <Item value="pQueue" priority="32" />
+      <Item value="distancia" priority="31" />
+      <Item value="current" priority="31" />
+      <Item value="bool" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Nikos.Collections.Interfaces.HeapTypePriority">
+      <Item value="MinHeap" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Nikos.Collections.BinomialHeap`1">
+      <Item value="Build_Heap`1" priority="215" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.BinomialHeap`1">
+      <Item value="Count" priority="53" />
+      <Item value="DeQueue`0" priority="134" />
+      <Item value="EnQueue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Algorithms.HNode">
+      <Item value="Key" priority="134" />
+      <Item value="Count" priority="80" />
+      <Item value="Left" priority="135" />
+      <Item value="Rigth" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Algorithms.Huffman+HNode">
+      <Item value="Count" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IDictionary`2">
+      <Item value="ContainsKey`0" priority="26" />
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Dictionary`2">
+      <Item value="ContainsKey`0" priority="53" />
+      <Item value="Indexer" priority="26" />
+      <Item value="Add`0" priority="54" />
+      <Item value="Values" priority="26" />
+      <Item value="Keys" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Select`2" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="26" />
+      <Item value="Substring`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.CircularLinkedList`1">
+      <Item value="AddFirst`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.LinkedList`1">
+      <Item value="AddFirst`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.LinkedListNode`1">
+      <Item value="Next" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.CLinkedListNode`1">
+      <Item value="Next" priority="377" />
+      <Item value="Previous" priority="215" />
+      <Item value="Value" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="CompareTo`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Queue`1">
+      <Item value="EnQueue`0" priority="53" />
+      <Item value="DeQueue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Graphs.IGraph">
+      <Item value="Edges" priority="49" />
+      <Item value="Vertexs" priority="296" />
+      <Item value="Ady`0" priority="80" />
+      <Item value="Vertex_Count" priority="49" />
+      <Item value="Edg`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Graphs.AdjacenyListGraph">
+      <Item value="_edges" priority="53" />
+      <Item value="_vertices" priority="80" />
+      <Item value="Clone`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Stack`1">
+      <Item value="Push`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Graphs.IVertex">
+      <Item value="Identifier" priority="107" />
+      <Item value="Tag" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Collections.Graphs.IEdge">
+      <Item value="V_2" priority="109" />
+      <Item value="Cost" priority="26" />
+      <Item value="V_1" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

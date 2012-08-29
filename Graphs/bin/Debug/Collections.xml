@@ -1,0 +1,1152 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Collections</name>
+    </assembly>
+    <members>
+        <member name="T:Nikos.Collections.Advance.HD_Engine.HDD_Engine">
+            <summary>
+            Encargada del acceso al disco duro.
+            Encargada de la desfracmentacion del archivo.
+            Clase a modo Singlenton.
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.HDD_Engine.#ctor(System.String)">
+            <summary>     
+            Create a new instance of HDD_Engine
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.HDD_Engine.Allocate(System.Int64)">
+            <summary>
+            Obtiene la posicion donde se va a guardar el bloque y avanza a la proxima posicion.
+            </summary>
+            <param name="blockSize">Tamanno del bloque a guardar</param>
+            <returns>Posicion donde se va a guardar el bloque</returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.HDD_Engine.UnAllocate(System.Int64,System.Int64)">
+            <summary>
+            Libera un bloque en el stream para que pueda ser utilizado en otro momento
+            </summary>
+            <param name="blockPosition">Posicion en donde comienza el bloque</param>
+            <param name="blockSize">Tamanno del bloque</param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.HDD_Engine.Get_Intance(System.String)">
+            <summary>
+             Get a instance of this class
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.HDD_Engine.Initialize(System.String,System.Int64)">
+            <summary>
+             Inicialize the intances of this class on determinate position
+            </summary>
+            <param name="stream"></param>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.HDD_Engine.CurrentePosition">
+            <summary>
+            Return the currente position of blocks on the stream
+            </summary>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.HDD_Engine.StreamPath">
+            <summary>
+             Ruta del stream asociado a la intancia del engine
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1"/> that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.Add(`0)">
+            <summary>
+            Adds an item to the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <param name="item">The object to add to the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param><exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.Clear">
+            <summary>
+            Removes all items from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only. 
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.Contains(`0)">
+            <summary>
+            Determines whether the <see cref="T:System.Collections.Generic.ICollection`1"/> contains a specific value.
+            </summary>
+            <returns>
+            true if <paramref name="item"/> is found in the <see cref="T:System.Collections.Generic.ICollection`1"/>; otherwise, false.
+            </returns>
+            <param name="item">The object to locate in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            Copies the elements of the <see cref="T:System.Collections.Generic.ICollection`1"/> to an <see cref="T:System.Array"/>, starting at a particular <see cref="T:System.Array"/> index.
+            </summary>
+            <param name="array">The one-dimensional <see cref="T:System.Array"/> that is the destination of the elements copied from <see cref="T:System.Collections.Generic.ICollection`1"/>. The <see cref="T:System.Array"/> must have zero-based indexing.
+                            </param><param name="arrayIndex">The zero-based index in <paramref name="array"/> at which copying begins.
+                            </param><exception cref="T:System.ArgumentNullException"><paramref name="array"/> is null.
+                            </exception><exception cref="T:System.ArgumentOutOfRangeException"><paramref name="arrayIndex"/> is less than 0.
+                            </exception><exception cref="T:System.ArgumentException"><paramref name="array"/> is multidimensional.
+                                -or-
+                            <paramref name="arrayIndex"/> is equal to or greater than the length of <paramref name="array"/>.
+                                -or-
+                                The number of elements in the source <see cref="T:System.Collections.Generic.ICollection`1"/> is greater than the available space from <paramref name="arrayIndex"/> to the end of the destination <paramref name="array"/>.
+                                -or-
+                                Type <paramref name="T"/> cannot be cast automatically to the type of the destination <paramref name="array"/>.
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.Remove(`0)">
+            <summary>
+            Removes the first occurrence of a specific object from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <returns>
+            true if <paramref name="item"/> was successfully removed from the <see cref="T:System.Collections.Generic.ICollection`1"/>; otherwise, false. This method also returns false if <paramref name="item"/> is not found in the original <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </returns>
+            <param name="item">The object to remove from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param><exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.Count">
+            <summary>
+            Gets the number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <returns>
+            The number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Minus_Tree`1.IsReadOnly">
+            <summary>
+            Gets a value indicating whether the <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+            </summary>
+            <returns>
+            true if the <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Nikos.Collections.Bases.EquivalentClass.GetEnumerator">
+            <summary>
+                                Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+                                A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Bases.EquivalentClass.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+                                Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+                                An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Bases.EquivalentClass.CompareTo(System.Object)">
+            <summary>
+                                Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+            </summary>
+            <returns>
+                                A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has these meanings: 
+                                Value 
+                                Meaning 
+                                Less than zero 
+                                This instance is less than <paramref name="obj" />. 
+                                Zero 
+                                This instance is equal to <paramref name="obj" />. 
+                                Greater than zero 
+                                This instance is greater than <paramref name="obj" />. 
+            </returns>
+            <param name="obj">
+                                An object to compare with this instance. 
+                            </param>
+            <exception cref="T:System.ArgumentException"><paramref name="obj" /> is not the same type as this instance. 
+                            </exception><filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Bases.EquivalentClass.Clone">
+            <summary>
+                                Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>
+                                A new object that is a copy of this instance.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="T:Nikos.Collections.Advance.HD_Engine.B_TreeNode`1">
+            <summary>
+            Represent a node of BTree
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:Nikos.Collections.Interfaces.ISizable">
+            <summary>
+            A Interface to determine the size of structure
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Interfaces.ISizable.get_Size">
+            <summary>
+            Retorna el tamanno en byte de la estructura
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_TreeNode`1.get_Size">
+            <summary>
+                        Retorna el tamanno en byte de la estructura
+            </summary>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_TreeNode`1.CompareTo(Nikos.Collections.Interfaces.INode{`0})">
+            <summary>
+                                Compares the current object with another object of the same type.
+            </summary>
+            <returns>
+                                A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has the following meanings: 
+                                Value 
+                                Meaning 
+                                Less than zero 
+                                This object is less than the <paramref name="other" /> parameter.
+                                Zero 
+                                This object is equal to <paramref name="other" />. 
+                                Greater than zero 
+                                This object is greater than <paramref name="other" />. 
+            </returns>
+            <param name="other">
+                                An object to compare with this object.
+                            </param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_TreeNode`1.CompareTo(System.Object)">
+            <summary>
+                                Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+            </summary>
+            <returns>
+                                A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has these meanings: 
+                                Value 
+                                Meaning 
+                                Less than zero 
+                                This instance is less than <paramref name="obj" />. 
+                                Zero 
+                                This instance is equal to <paramref name="obj" />. 
+                                Greater than zero 
+                                This instance is greater than <paramref name="obj" />. 
+            </returns>
+            <param name="obj">
+                                An object to compare with this instance. 
+                            </param>
+            <exception cref="T:System.ArgumentException"><paramref name="obj" /> is not the same type as this instance. 
+                            </exception><filterpriority>2</filterpriority>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_TreeNode`1.Location">
+            <summary>
+            Location of node on file
+            </summary>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_TreeNode`1.IsLeaf">
+            <summary>
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_TreeNode`1.Degree">
+            <summary>
+             The degree of node
+            </summary>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:Nikos.Collections.Advance.AVL_Node`1">
+            <summary>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Nikos.Collections.Bases.DisJoinSet.GetEnumerator">
+            <summary>
+                                Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+                                A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Bases.DisJoinSet.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+                                Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+                                An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="T:Nikos.Collections.Advance.AVL_Tree`1">
+            <summary>
+            Represent a AVL tree structure; the operations over AVL tree are O(log n)
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.#ctor">
+            <summary>
+            Create a new AVL tree
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.#ctor(`0[])">
+            <summary>
+            Create a new AVL tree
+            </summary>
+            <param name="data">Data to add of tree</param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            Copies the elements of the <see cref="T:System.Collections.Generic.ICollection`1" /> to an <see cref="T:System.Array" />, starting at a particular <see cref="T:System.Array" /> index.
+            </summary>
+            <param name="array">The one-dimensional <see cref="T:System.Array" /> that is the destination of the elements copied from <see cref="T:System.Collections.Generic.ICollection`1" />. The <see cref="T:System.Array" /> must have zero-based indexing.</param>
+            <param name="arrayIndex">The zero-based index in <paramref name="array" /> at which copying begins.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="array" /> is null.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="arrayIndex" /> is less than 0.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="array" /> is multidimensional.-or-<paramref name="arrayIndex" /> is equal to or greater than the length of <paramref name="array" />.-or-The number of elements in the source <see cref="T:System.Collections.Generic.ICollection`1" /> is greater than the available space from <paramref name="arrayIndex" /> to the end of the destination <paramref name="array" />.-or-Type <paramref name="T" /> cannot be cast automatically to the type of the destination <paramref name="array" />.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.Remove(`0)">
+            <summary>
+            Removes the first occurrence of a specific object from the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <returns>
+            true if <paramref name="item" /> was successfully removed from the <see cref="T:System.Collections.Generic.ICollection`1" />; otherwise, false. This method also returns false if <paramref name="item" /> is not found in the original <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </returns>
+            <param name="item">The object to remove from the <see cref="T:System.Collections.Generic.ICollection`1" />.</param>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.Add(`0)">
+            <summary>
+            Adds an item to the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <param name="item">The object to add to the <see cref="T:System.Collections.Generic.ICollection`1" />.</param>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.System#Collections#Generic#ICollection{T}#Contains(`0)">
+            <summary>
+            Determines whether the <see cref="T:System.Collections.Generic.ICollection`1" /> contains a specific value.
+            </summary>
+            <returns>
+            true if <paramref name="item" /> is found in the <see cref="T:System.Collections.Generic.ICollection`1" />; otherwise, false.
+            </returns>
+            <param name="item">The object to locate in the <see cref="T:System.Collections.Generic.ICollection`1" />.</param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.Contains(`0,Nikos.Collections.Advance.AVL_Node{`0}@)">
+            <summary>
+            Determine if a item is in tree
+            </summary>
+            <param name="item">Item to searsh</param>
+            <param name="output">the node that contain the item if the item is on </param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.Contains(System.IComparable,System.Func{`0,System.IComparable},Nikos.Collections.Advance.AVL_Node{`0}@)">
+            <summary>
+            </summary>
+            <param name="item"></param>
+            <param name="func"></param>
+            <param name="output"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.ContainsI(`0)">
+            <summary>
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.Contains(`0)">
+            <summary>
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.Clear">
+            <summary>
+            Removes all items from the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only. </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.PreOrden">
+            <summary>
+            The pre-order walk on tree
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.InOrden">
+            <summary>
+            The in-order walk on tree
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.GreaterThan(`0)">
+            <summary>
+            Get the items greather than value in tree
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.LessThan(`0)">
+            <summary>
+            Get the items less than value in tree
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.AVL_Tree`1.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>
+            A new object that is a copy of this instance.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="P:Nikos.Collections.Advance.AVL_Tree`1.Count">
+            <summary>
+            Gets the number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <returns>
+            The number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.AVL_Tree`1.IsReadOnly">
+            <summary>
+            Gets a value indicating whether the <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only.
+            </summary>
+            <returns>
+            true if the <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only; otherwise, false.
+            </returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.AVL_Tree`1.Min">
+            <summary>
+            The min value in tree
+            </summary>
+        </member>
+        <member name="P:Nikos.Collections.Advance.AVL_Tree`1.Max">
+            <summary>
+            The max value in tree
+            </summary>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="P:Nikos.Collections.Advance.AVL_Tree`1.Root">
+            <summary>
+            the value for root
+            </summary>
+        </member>
+        <member name="P:Nikos.Collections.Advance.AVL_Tree`1.C_Root">
+            <summary>
+            The root node
+            </summary>
+        </member>
+        <member name="T:Nikos.Collections.Advance.Dictionary`2">
+            <summary>
+            Represent a dictionary of TKey and TValue pair; the implementation using AVL structure to performance the
+            operations
+            </summary>
+            <typeparam name="TKey">The type of keys</typeparam>
+            <typeparam name="TValue">The type of values</typeparam>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.#ctor">
+            <summary>
+             Create a new instance of dictionary
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Adds an item to the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <param name="item">The object to add to the <see cref="T:System.Collections.Generic.ICollection`1" />.</param>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.Clear">
+            <summary>
+            Removes all items from the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only. </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Determines whether the <see cref="T:System.Collections.Generic.ICollection`1" /> contains a specific value.
+            </summary>
+            <returns>
+            true if <paramref name="item" /> is found in the <see cref="T:System.Collections.Generic.ICollection`1" />; otherwise, false.
+            </returns>
+            <param name="item">The object to locate in the <see cref="T:System.Collections.Generic.ICollection`1" />.</param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
+            <summary>
+            Copies the elements of the <see cref="T:System.Collections.Generic.ICollection`1" /> to an <see cref="T:System.Array" />, starting at a particular <see cref="T:System.Array" /> index.
+            </summary>
+            <param name="array">The one-dimensional <see cref="T:System.Array" /> that is the destination of the elements copied from <see cref="T:System.Collections.Generic.ICollection`1" />. The <see cref="T:System.Array" /> must have zero-based indexing.</param>
+            <param name="arrayIndex">The zero-based index in <paramref name="array" /> at which copying begins.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="array" /> is null.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="arrayIndex" /> is less than 0.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="array" /> is multidimensional.-or-<paramref name="arrayIndex" /> is equal to or greater than the length of <paramref name="array" />.-or-The number of elements in the source <see cref="T:System.Collections.Generic.ICollection`1" /> is greater than the available space from <paramref name="arrayIndex" /> to the end of the destination <paramref name="array" />.-or-Type <paramref name="T"></paramref>
+            	cannot be cast automatically to the type of the destination <paramref name="array" />.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Removes the first occurrence of a specific object from the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <returns>
+            true if <paramref name="item" /> was successfully removed from the <see cref="T:System.Collections.Generic.ICollection`1" />; otherwise, false. This method also returns false if <paramref name="item" /> is not found in the original <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </returns>
+            <param name="item">The object to remove from the <see cref="T:System.Collections.Generic.ICollection`1" />.</param>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.ContainsKey(`0)">
+            <summary>
+            Determines whether the <see cref="T:System.Collections.Generic.IDictionary`2" /> contains an element with the specified key.
+            </summary>
+            <returns>
+            true if the <see cref="T:System.Collections.Generic.IDictionary`2" /> contains an element with the key; otherwise, false.
+            </returns>
+            <param name="key">The key to locate in the <see cref="T:System.Collections.Generic.IDictionary`2" />.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is null.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.Add(`0,`1)">
+            <summary>
+            Adds an element with the provided key and value to the <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <param name="key">The object to use as the key of the element to add.</param>
+            <param name="value">The object to use as the value of the element to add.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is null.</exception>
+            <exception cref="T:System.ArgumentException">An element with the same key already exists in the <see cref="T:System.Collections.Generic.IDictionary`2" />.</exception>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.IDictionary`2" /> is read-only.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.Remove(`0)">
+            <summary>
+            Removes the element with the specified key from the <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <returns>
+            true if the element is successfully removed; otherwise, false.  This method also returns false if <paramref name="key" /> was not found in the original <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </returns>
+            <param name="key">The key of the element to remove.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is null.</exception>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.IDictionary`2" /> is read-only.</exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.Dictionary`2.TryGetValue(`0,`1@)">
+            <summary>
+            Gets the value associated with the specified key.
+            </summary>
+            <returns>
+            true if the object that implements <see cref="T:System.Collections.Generic.IDictionary`2" /> contains an element with the specified key; otherwise, false.
+            </returns>
+            <param name="key">The key whose value to get.</param>
+            <param name="value">When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the <paramref name="value" /> parameter. This parameter is passed uninitialized.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is null.</exception>
+        </member>
+        <member name="P:Nikos.Collections.Advance.Dictionary`2.Count">
+            <summary>
+            Gets the number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <returns>
+            The number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.Dictionary`2.IsReadOnly">
+            <summary>
+            Gets a value indicating whether the <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only.
+            </summary>
+            <returns>
+            true if the <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only; otherwise, false.
+            </returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.Dictionary`2.Item(`0)">
+            <summary>
+            Gets or sets the element with the specified key.
+            </summary>
+            <returns>
+            The element with the specified key.
+            </returns>
+            <param name="key">The key of the element to get or set.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is null.</exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">The property is retrieved and <paramref name="key" /> is not found.</exception>
+            <exception cref="T:System.NotSupportedException">The property is set and the <see cref="T:System.Collections.Generic.IDictionary`2" /> is read-only.</exception>
+        </member>
+        <member name="P:Nikos.Collections.Advance.Dictionary`2.Keys">
+            <summary>
+            Gets an <see cref="T:System.Collections.Generic.ICollection`1" /> containing the keys of the <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.Generic.ICollection`1" /> containing the keys of the object that implements <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.Dictionary`2.Values">
+            <summary>
+            Gets an <see cref="T:System.Collections.Generic.ICollection`1" /> containing the values in the <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.Generic.ICollection`1" /> containing the values in the object that implements <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </returns>
+        </member>
+        <member name="T:Nikos.Collections.Advance.HD_Engine.NodeItem">
+            <summary>
+            Represent a Generic parameter of B-Tree
+            The derived clases needen a default constructor for good functionality whith the B-Tree
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.NodeItem.ToByteArray">
+            <summary>
+            Get bytes of representation of class.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.NodeItem.LoadFromByteArray(System.Byte[])">
+            <summary>
+            Load to data-object data passed as parameters
+            </summary>
+            <param name="data">Data for load internal objects</param>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.BT_Head.Size">
+            <summary>
+            Size of head of tree
+            </summary>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.BT_Head.index">
+            <summary>
+            The position of last lecture on LoadFromByteArray method.
+            Use in derived classes for continous read in overrides methods
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.BT_Head.ToByteArray">
+            <summary>
+            Get the bytes than represent a class.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.BT_Head.LoadFromByteArray(System.Byte[])">
+            <summary>
+            Load to data-object the data passed as parameters
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1"/> that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.Add(`0)">
+            <summary>
+            Adds an item to the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <param name="item">The object to add to the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param><exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.Clear">
+            <summary>
+            Removes all items from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only. 
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.Contains(`0)">
+            <summary>
+            Determines whether the <see cref="T:System.Collections.Generic.ICollection`1"/> contains a specific value.
+            </summary>
+            <returns>
+            true if <paramref name="item"/> is found in the <see cref="T:System.Collections.Generic.ICollection`1"/>; otherwise, false.
+            </returns>
+            <param name="item">The object to locate in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            Copies the elements of the <see cref="T:System.Collections.Generic.ICollection`1"/> to an <see cref="T:System.Array"/>, starting at a particular <see cref="T:System.Array"/> index.
+            </summary>
+            <param name="array">The one-dimensional <see cref="T:System.Array"/> that is the destination of the elements copied from <see cref="T:System.Collections.Generic.ICollection`1"/>. The <see cref="T:System.Array"/> must have zero-based indexing.
+                            </param><param name="arrayIndex">The zero-based index in <paramref name="array"/> at which copying begins.
+                            </param><exception cref="T:System.ArgumentNullException"><paramref name="array"/> is null.
+                            </exception><exception cref="T:System.ArgumentOutOfRangeException"><paramref name="arrayIndex"/> is less than 0.
+                            </exception><exception cref="T:System.ArgumentException"><paramref name="array"/> is multidimensional.
+                                -or-
+                            <paramref name="arrayIndex"/> is equal to or greater than the length of <paramref name="array"/>.
+                                -or-
+                                The number of elements in the source <see cref="T:System.Collections.Generic.ICollection`1"/> is greater than the available space from <paramref name="arrayIndex"/> to the end of the destination <paramref name="array"/>.
+                                -or-
+                                Type <paramref name="T"/> cannot be cast automatically to the type of the destination <paramref name="array"/>.
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.Remove(`0)">
+            <summary>
+            Removes the first occurrence of a specific object from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <returns>
+            true if <paramref name="item"/> was successfully removed from the <see cref="T:System.Collections.Generic.ICollection`1"/>; otherwise, false. This method also returns false if <paramref name="item"/> is not found in the original <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </returns>
+            <param name="item">The object to remove from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param><exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.Count">
+            <summary>
+            Gets the number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <returns>
+            The number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Plus_Tree`1.IsReadOnly">
+            <summary>
+            Gets a value indicating whether the <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+            </summary>
+            <returns>
+            true if the <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Nikos.Collections.Bases.BinomialHeap`1.GetEnumerator">
+            <summary>
+                                Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+                                A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Bases.BinomialHeap`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+                                Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+                                An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="T:Nikos.Collections.Interfaces.HeapTypePriority">
+            <summary>
+            Describe que tipo de Heap se va a utilizar
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Bases.Pair`2.CompareTo(System.Object)">
+            <summary>
+            Compares the current instance with another object of the same type.
+            </summary>
+            <returns>
+            A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has these meanings: Value Meaning Less than zero This instance is less than <paramref name="obj" />. Zero This instance is equal to <paramref name="obj" />. Greater than zero This instance is greater than <paramref name="obj" />. 
+            </returns>
+            <param name="obj">An object to compare with this instance. </param>
+            <exception cref="T:System.ArgumentException"><paramref name="obj" /> is not the same type as this instance. </exception><filterpriority>2</filterpriority>
+        </member>
+        <member name="T:Nikos.Collections.Advance.RBTree`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:Nikos.Collections.Advance.HD_Engine.B_Tree`1">
+            <summary>
+            Represent a B_Tree structure
+            </summary>
+            <typeparam name="T">Generic parameter</typeparam>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.B_Tree`1.cache">
+            <summary>
+            Get access to memory cache
+            </summary>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.B_Tree`1.degree">
+            <summary>
+            Degree of tree
+            </summary>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.B_Tree`1.file">
+            <summary>
+            File of tree asociated
+            </summary>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.B_Tree`1.nodeSize">
+            <summary>
+            The size of nodes
+            </summary>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.B_Tree`1.optimezedWithCache">
+            <summary>
+            Indicate optimization with cache
+            </summary>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.B_Tree`1.root">
+            <summary>
+            The root of tree
+            </summary>
+        </member>
+        <member name="F:Nikos.Collections.Advance.HD_Engine.B_Tree`1.tSize">
+            <summary>
+            Key size
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.GetHeadSize">
+            <summary>
+            Get a head size
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.GetNodeSize">
+            <summary>
+            Get the node size
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.GetTInstance">
+            <summary>
+            Get a instance of generic parameter
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.InitializeCache(System.Int32)">
+            <summary>
+            Inicialize the memory cache
+            </summary>
+            <param name="capacity">Capacity of memory in kilo bytes</param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.WriteHead">
+            <summary>
+            Write the head of tree into asociate stream
+            </summary>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.DiskWrite(Nikos.Collections.Interfaces.INode{`0})">
+            <summary>
+            Write a node into asociate stream
+            </summary>
+            <param name="x"></param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.DiskRead(System.IO.Stream,System.Int64)">
+            <summary>
+            Read one node from streams
+            </summary>
+            <param name="stream"></param>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.InOrderTreeWalk(Nikos.Collections.Interfaces.INode{`0})">
+            <summary>
+            In orden walk over one node
+            </summary>
+            <param name="node"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.InBackOrderTreeWalk(Nikos.Collections.Interfaces.INode{`0})">
+            <summary>
+            In back orden walk over one node
+            </summary>
+            <param name="node"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.BinarySearch(`0[],`0,System.Int32,System.Int32)">
+            <summary>
+            Performance a binary searsh into keys of values
+            </summary>
+            <param name="values">Value over make the search</param>
+            <param name="value">Value to search</param>
+            <param name="start">zero-based index to star the search</param>
+            <param name="end">zero-based index to end the search</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.#ctor(System.Int32,System.IO.FileStream,System.Boolean,System.Int32)">
+            <summary>
+            Create a new B_Tree
+            </summary>
+            <param name="degree">Degree of tree</param>
+            <param name="stream">Stream asociated to B_Tree</param>
+            <param name="usingCache">Indicated optimization with cache</param>
+            <param name="cacheCapacity">Capacy of cache, if cache was created this parameter is ignorer</param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.#ctor(System.IO.FileStream,System.Boolean,System.Int32)">
+            <summary>
+            Create a new B_Tree
+            </summary>
+            <param name="stream"></param>
+            <param name="usingCache"></param>
+            <param name="cacheCapacity"></param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.#ctor(System.IO.FileStream,Nikos.Collections.Advance.HD_Engine.BT_Head)">
+            <summary>
+            Create a B_Tree 
+            </summary>
+            <param name="stream"></param>
+            <param name="head"></param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Load(System.IO.FileStream,System.Int64)">
+            <summary>
+             Carga el B_Tree dado un archivo y la posicion de la cabecera
+            </summary>
+            <param name="stream"></param>
+            <param name="headPosition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.InOrderTreeWalk">
+            <summary>
+            In orden walk over BTree
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.InBackOrderTreeWalk">
+            <summary>
+            In back orden walk over BTree
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.LessThan(`0)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.GreatherThan(`0)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Between(`0,`0)">
+            <summary>
+            </summary>
+            <param name="value1"></param>
+            <param name="value2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.GetEnumerator">
+            <summary>
+                                Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+                                A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+                                Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+                                An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Dispose">
+            <summary>
+                                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Add(`0)">
+            <summary>
+            Adds an item to the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <param name="item">The object to add to the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param><exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Clear">
+            <summary>
+            Removes all items from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only. 
+                            </exception>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Contains(`0)">
+            <summary>
+            Determines whether the <see cref="T:System.Collections.Generic.ICollection`1"/> contains a specific value.
+            </summary>
+            <returns>
+            true if <paramref name="item"/> is found in the <see cref="T:System.Collections.Generic.ICollection`1"/>; otherwise, false.
+            </returns>
+            <param name="item">The object to locate in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.ContainsI(`0)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Contains(`0,Nikos.Collections.Interfaces.INode{`0}@)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            Copies the elements of the <see cref="T:System.Collections.Generic.ICollection`1"/> to an <see cref="T:System.Array"/>, starting at a particular <see cref="T:System.Array"/> index.
+            </summary>
+            <param name="array">The one-dimensional <see cref="T:System.Array"/> that is the destination of the elements copied from <see cref="T:System.Collections.Generic.ICollection`1"/>. The <see cref="T:System.Array"/> must have zero-based indexing.
+                            </param><param name="arrayIndex">The zero-based index in <paramref name="array"/> at which copying begins.
+                            </param><exception cref="T:System.ArgumentNullException"><paramref name="array"/> is null.
+                            </exception><exception cref="T:System.ArgumentOutOfRangeException"><paramref name="arrayIndex"/> is less than 0.
+                            </exception><exception cref="T:System.ArgumentException"><paramref name="array"/> is multidimensional.
+                                -or-
+                            <paramref name="arrayIndex"/> is equal to or greater than the length of <paramref name="array"/>.
+                                -or-
+                                The number of elements in the source <see cref="T:System.Collections.Generic.ICollection`1"/> is greater than the available space from <paramref name="arrayIndex"/> to the end of the destination <paramref name="array"/>.
+                                -or-
+                                Type <paramref name="T"/> cannot be cast automatically to the type of the destination <paramref name="array"/>.
+                            </exception>ku
+        </member>
+        <member name="M:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Remove(`0)">
+            <summary>
+            Removes the first occurrence of a specific object from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <returns>
+            true if <paramref name="item"/> was successfully removed from the <see cref="T:System.Collections.Generic.ICollection`1"/>; otherwise, false. This method also returns false if <paramref name="item"/> is not found in the original <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </returns>
+            <param name="item">The object to remove from the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+                            </param><exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+                            </exception>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Head">
+            <summary>
+            Head of tree
+            </summary>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Tree`1.OptimezedWithCache">
+            <summary>
+            Determine if tree is optimezed with cache
+            </summary>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Max">
+            <summary>
+            Get the maximun item on tree
+            </summary>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Min">
+            <summary>
+            Get the minimum item on tree
+            </summary>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Tree`1.Count">
+            <summary>
+            Gets the number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </summary>
+            <returns>
+            The number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1"/>.
+            </returns>
+        </member>
+        <member name="P:Nikos.Collections.Advance.HD_Engine.B_Tree`1.IsReadOnly">
+            <summary>
+            Gets a value indicating whether the <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only.
+            </summary>
+            <returns>
+            true if the <see cref="T:System.Collections.Generic.ICollection`1"/> is read-only; otherwise, false.
+            </returns>
+        </member>
+        <member name="T:Nikos.Collections.Bases.ABB`1">
+            <summary>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Nikos.Collections.Bases.ABB`1.#ctor(`0)">
+            <summary>
+            </summary>
+            <param name="Value"></param>
+        </member>
+        <member name="M:Nikos.Collections.Bases.ABB`1.Add(`0)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Nikos.Collections.Bases.ABB`1.Add(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            </summary>
+            <param name="collection"></param>
+        </member>
+        <member name="M:Nikos.Collections.Bases.ABB`1.Remove(`0)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Nikos.Collections.Bases.ABB`1.Constain(`0)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Bases.ABB`1.PreOrden">
+            <summary>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Bases.ABB`1.EntreOrden">
+            <summary>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Collections.Bases.ABB`1.PosOrden">
+            <summary>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Nikos.Collections.Bases.ABB`1.Root">
+            <summary>
+             
+            </summary>
+        </member>
+    </members>
+</doc>

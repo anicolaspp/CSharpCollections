@@ -1,0 +1,14 @@
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\Graphs.dll
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\Graphs.pdb
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\Extensions.dll
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\Extensions.pdb
+D:\Projects\Nikos.EDA.Collection\Graphs\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Nikos.EDA.Collection\Graphs\obj\Debug\Graphs.dll
+D:\Projects\Nikos.EDA.Collection\Graphs\obj\Debug\Graphs.pdb
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\Extensions.xml
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\Collections.dll
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\Collections.pdb
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\Collections.xml
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\System.Cache.dll
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\System.Cache.pdb
+D:\Projects\Nikos.EDA.Collection\Graphs\bin\Debug\System.Cache.xml

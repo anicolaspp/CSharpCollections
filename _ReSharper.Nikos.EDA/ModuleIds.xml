@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD" ModuleId="Collections" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Cache" />
+  <Module PersistentId="Extensions, Version=1.0.0.0, Culture=neutral" ModuleId="Extensions" />
+</Modules>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5745FEA8-CF61-477E-B3AB-43C6CC0EEEAD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nikos.Collections</RootNamespace>
+    <AssemblyName>Collections</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Collections.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Collections, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Collections.Extensions\Collections.Extensions\bin\Debug\Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\BFS.cs" />
+    <Compile Include="Algorithms\ConectedComponents.cs" />
+    <Compile Include="Algorithms\DFS.cs" />
+    <Compile Include="Interfaces\IAlgorithm.cs" />
+    <Compile Include="Structs\DisJoinSet.cs" />
+    <Compile Include="Algorithms\HNode.cs" />
+    <Compile Include="Algorithms\Huffman.cs" />
+    <Compile Include="Algorithms\Kruskal.cs" />
+    <Compile Include="Algorithms\Prim.cs" />
+    <Compile Include="Algorithms\Topological_Sort.cs" />
+    <Compile Include="Cache\CacheItem.cs" />
+    <Compile Include="Enginies\Allocator.cs" />
+    <Compile Include="Enginies\DriveEngine.cs" />
+    <Compile Include="Cache\Executer.cs" />
+    <Compile Include="Interfaces\IAllocator.cs" />
+    <Compile Include="Interfaces\IPrint.cs" />
+    <Compile Include="Interfaces\ITree.cs" />
+    <Compile Include="Interfaces\IEdge.cs" />
+    <Compile Include="Interfaces\IGraph.cs" />
+    <Compile Include="Interfaces\IVertex.cs" />
+    <Compile Include="Cache\MemoryCache.cs" />
+    <Compile Include="Structs\AdjacenyListGraph.cs" />
+    <Compile Include="Structs\MatrixGraph.cs" />
+    <Compile Include="Structs\Queue.cs" />
+    <Compile Include="Structs\CircularLinkedList.cs" />
+    <Compile Include="Structs\FibonacciHeap.cs" />
+    <Compile Include="Structs\HeapTypePriority.cs" />
+    <Compile Include="Interfaces\IClonable.cs" />
+    <Compile Include="Interfaces\IPriorityQueue.cs" />
+    <Compile Include="Trees\BTree\B_Tree.cs" />
+    <Compile Include="Trees\BTree\B_TreeNode.cs" />
+    <Compile Include="Trees\BTree\BT_Head.cs" />
+    <Compile Include="Interfaces\INode.cs" />
+    <Compile Include="Trees\BTree\NodeItem.cs" />
+    <Compile Include="Interfaces\ISizable.cs" />
+    <Compile Include="Structs\Color.cs" />
+    <Compile Include="Trees\RBNode.cs" />
+    <Compile Include="Trees\BinaryNode.cs" />
+    <Compile Include="Structs\Dictionary.cs" />
+    <Compile Include="Structs\Pair.cs" />
+    <Compile Include="Trees\AVL_Node.cs" />
+    <Compile Include="Trees\AVL_Tree.cs" />
+    <Compile Include="Interfaces\Direction.cs" />
+    <Compile Include="Structs\BinomialHeap.cs" />
+    <Compile Include="Structs\HeapItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trees\RBTree.cs" />
+    <Compile Include="Structs\SkipNode.cs" />
+    <Compile Include="Structs\Stack.cs" />
+    <Compile Include="Structs\SkipList.cs" />
+    <Compile Include="Trees\Trie.cs" />
+    <Compile Include="Trees\TrieNode.cs" />
+    <Compile Include="Trees\TrieNodeList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

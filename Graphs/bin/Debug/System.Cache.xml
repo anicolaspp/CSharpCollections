@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Cache</name>
+    </assembly>
+    <members>
+        <member name="M:Nikos.Cache.CacheItem`1.Equals(System.Object)">
+            <summary>
+            
+                                Determines whether the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />.
+                            
+            </summary>
+            
+            <returns>
+            true if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, false.
+                            
+            </returns>
+            
+            <param name="obj">
+                                The <see cref="T:System.Object" /> to compare with the current <see cref="T:System.Object" />. 
+                            </param>
+            <exception cref="T:System.NullReferenceException">
+                                The <paramref name="obj" /> parameter is null.
+                            </exception><filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Nikos.Cache.CacheItem`1.get_Size">
+            <summary>
+                        Retorna el tamanno en byte de la estructura
+            </summary>
+            <returns>
+            </returns>
+        </member>
+        <member name="T:Nikos.Cache.MemoryCache`1">
+            <summary>
+             Memory Stystem Cache
+            </summary>
+            <typeparam name="T">Type of elemente on the memory</typeparam>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.Get_Intance(System.Int64)">
+            <summary>
+            Get acces to the memory cache
+            </summary>
+            <param name="capacity">Capacity (in KBs) of memory, if the memory was created this parameter is ignored</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.Add(System.Object,`0)">
+            <summary>
+            Add element to cache
+            </summary>
+            <param name="value">Value to adapted</param>
+            <summary>
+            Add element to cache
+            </summary>
+            <param name="owner">The owner of value</param>
+            <param name="value">Value to adapted</param>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.Add(System.Object,`0,Nikos.Cache.MethodInvoke)">
+            <summary>
+            Add element to cache
+            </summary>
+            <param name="owner">The owner of value</param>
+            <param name="value">Value to adapted</param>
+            <param name="method">The method to execute when remove the item from cache</param>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.Remove(System.Object,`0)">
+            <summary>
+            Remove a value of cache
+            Execute the asociated method with value before removed
+            </summary>
+            <param name="owner">Owner of value</param>
+            <param name="value">Value to remove</param>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.Contains(System.Object,`0)">
+            <summary>
+             Determine if a element is on cache
+            </summary>
+            <param name="owner"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.Find(System.Object,System.Func{`0,System.IComparable},System.IComparable)">
+            <summary>
+            Find a element on cache with specific function
+            </summary>
+            <param name="owner">Owner of element</param>
+            <param name="func">Convert the value to IComparable for search on cache</param>
+            <param name="value">Value to find</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.FindAll(System.Object,System.Func{`0,System.IComparable},System.IComparable)">
+            <summary>
+             Find all elements on cache with specific function
+            </summary>
+            <param name="owner">Owner of element</param>
+            <param name="func">Convert the value to IComparable for search on cache</param>
+            <param name="value">Value to find</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.Clear(System.Object,System.Boolean)">
+            <summary>
+            Clear memory asociated to especific owner
+            </summary>
+            <param name="owner">The owner of element to clear</param>
+            <param name="performanceOperationPendding"></param>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.UpDate(System.Object)">
+            <summary>
+            Performance the action asociate to the item of cahe for all item of owner
+            </summary>
+            <param name="owner">Owner of items</param>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.UpDateAll">
+            <summary>
+            Performance the action asociate to all items on cache
+            </summary>
+        </member>
+        <member name="M:Nikos.Cache.MemoryCache`1.Dispose">
+            <summary>
+                                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+                                Clear all element for each owner
+            </summary>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="P:Nikos.Cache.MemoryCache`1.Capacity">
+            <summary>
+            Capacity of memory
+            </summary>
+        </member>
+        <member name="P:Nikos.Cache.MemoryCache`1.RealSize">
+            <summary>
+            The real size of memory
+            </summary>
+        </member>
+        <member name="T:Nikos.Cache.MethodInvoke">
+            <summary>
+             Invoke the method asociate with the executer
+            </summary>
+            <param name="args">Arguments of method</param>
+        </member>
+        <member name="T:Nikos.Cache.Executer`1">
+            <summary>
+             Es un mecanismo para ejecutar un metodo asociado a los elementos de la memoria cache antes de ser eliminados
+            </summary>
+            <typeparam name="T">El valor del elemento en la memoria cache</typeparam>
+        </member>
+        <member name="M:Nikos.Cache.Executer`1.Execute">
+            <summary>
+            Execute the asociated method
+            </summary>
+        </member>
+        <member name="M:Nikos.Cache.Executer`1.CompareTo(Nikos.Cache.Executer{`0})">
+            <summary>
+                                Compares the current object with another object of the same type.
+            </summary>
+            <returns>
+                                A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has the following meanings: 
+                                Value 
+                                Meaning 
+                                Less than zero 
+                                This object is less than the <paramref name="other" /> parameter.
+                                Zero 
+                                This object is equal to <paramref name="other" />. 
+                                Greater than zero 
+                                This object is greater than <paramref name="other" />. 
+            </returns>
+            <param name="other">
+                                An object to compare with this object.
+                            </param>
+        </member>
+        <member name="M:Nikos.Cache.Executer`1.CompareTo(System.Object)">
+            <summary>
+                                Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+            </summary>
+            <returns>
+                                A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has these meanings: 
+                                Value 
+                                Meaning 
+                                Less than zero 
+                                This instance is less than <paramref name="obj" />. 
+                                Zero 
+                                This instance is equal to <paramref name="obj" />. 
+                                Greater than zero 
+                                This instance is greater than <paramref name="obj" />. 
+            </returns>
+            <param name="obj">
+                                An object to compare with this instance. 
+                            </param>
+            <exception cref="T:System.ArgumentException"><paramref name="obj" /> is not the same type as this instance. 
+                            </exception><filterpriority>2</filterpriority>
+        </member>
+        <member name="P:Nikos.Cache.Executer`1.Value">
+            <summary>
+            The value on memory cache
+            </summary>
+        </member>
+        <member name="P:Nikos.Cache.Executer`1.m_Info">
+            <summary>
+            Method asociate with Value
+            </summary>
+        </member>
+    </members>
+</doc>

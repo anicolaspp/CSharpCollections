@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Nikos.EDA">
+</Property><Property Name="Solution File" Value="D:\Projects\Nikos.EDA.Collection\Nikos.EDA.sln">
+</Property><Property Name="User Options File" Value="D:\Projects\Nikos.EDA.Collection\Nikos.EDA.suo">
+</Property><Property Name="Date" Value="Friday, May 07, 2010">
+</Property><Property Name="Time" Value="1:44 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Nikos.EDA.sln" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Nikos.EDA.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Nikos.EDA.suo" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Nikos.EDA.suo">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\Collections.csproj" Description="Project file successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\Collections.csproj">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\B_TreeNode.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\B_TreeNode.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\BT_Head.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\BT_Head.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\INode.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\INode.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\NodeItem.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\NodeItem.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\HDD_Engine.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\HDD_Engine.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\BTree\ISizable.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\BTree\ISizable.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\Color.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\Color.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\RBNode.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\RBNode.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\BinaryNode.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\BinaryNode.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\Dictionary.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\Dictionary.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\private\Pair.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\private\Pair.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\AVL_Node.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\AVL_Node.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\AVL_Tree.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\AVL_Tree.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\ABB.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\ABB.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\private\ABBNode.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\private\ABBNode.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\private\Direction.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\private\Direction.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\DisJoinSet.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\DisJoinSet.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\EquivalentClass.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\EquivalentClass.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\Heap.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\Heap.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\private\HeapItem.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\private\HeapItem.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\public\RBTree.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\public\RBTree.cs">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\Collections Diagrams.cd" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Collections\Collections Diagrams.cd">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\Collections.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Collections" Source="Collections\Collections.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Graphs.csproj" Description="Project file successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Graphs.csproj">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Algoritms\BFS.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Algoritms\BFS.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Algoritms\ConectedComponents.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Algoritms\ConectedComponents.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Algoritms\DFS.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Algoritms\DFS.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Algoritms\Kruskal.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Algoritms\Kruskal.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Concepts\IEdge.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Concepts\IEdge.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Concepts\IGraph.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Concepts\IGraph.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Concepts\IVertex.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Concepts\IVertex.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Algoritms\Prim.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Algoritms\Prim.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Representation\AdjacenyListGraph.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Representation\AdjacenyListGraph.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Projects\Nikos.EDA.Collection\Backup\Graphs\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Graphs.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Graphs" Source="Graphs\Graphs.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Nikos.EDA.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Nikos.EDA.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Collections" Source="Collections\Collections.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Graphs" Source="Graphs\Graphs.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

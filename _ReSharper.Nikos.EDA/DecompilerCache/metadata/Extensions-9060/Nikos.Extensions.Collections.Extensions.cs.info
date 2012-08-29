@@ -1,0 +1,9 @@
+R# version: 5.0.1659.36
+assembly Extensions, Version=1.0.0.0, Culture=neutral
+  file D:\Projects\Collections.Extensions\Collections.Extensions\bin\Debug\Extensions.dll mtime 30/05/2010 22:41:06
+referenced assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll mtime 10/06/2009 21:23:06
+referenced assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll mtime 18/03/2010 17:31:26
+referenced assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll mtime 18/03/2010 17:31:26
