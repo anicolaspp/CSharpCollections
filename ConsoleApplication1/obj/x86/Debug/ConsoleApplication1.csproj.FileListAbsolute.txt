@@ -22,3 +22,5 @@ C:\Users\nperez\Dropbox\Projects\Nikos.EDA.Collection\ConsoleApplication1\bin\De
 C:\Users\nperez\Dropbox\Projects\Nikos.EDA.Collection\ConsoleApplication1\bin\Debug\Extensions.pdb
 C:\Users\nperez\Dropbox\Projects\Nikos.EDA.Collection\ConsoleApplication1\bin\Debug\Extensions.xml
 C:\Users\nperez\Dropbox\Projects\Nikos.EDA.Collection\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\collections\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\collections\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
