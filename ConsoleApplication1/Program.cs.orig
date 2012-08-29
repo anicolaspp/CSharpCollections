@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,12 +9,16 @@ using Nikos.Collections;
 namespace ConsoleApplication1
 {
     class Program
-    {
 <<<<<<< HEAD
-	    //testing 8
+ 
+{
+//master
 =======
-	    //testing 9
->>>>>>> e993471bad8e1eb23ac4cd7931b46624d442e992
+    {
+
+	//branch
+
+>>>>>>> testingconficts
 
         static void Main(string[] args)
         {
