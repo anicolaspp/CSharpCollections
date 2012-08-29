@@ -9,7 +9,7 @@ using Nikos.Collections;
 namespace ConsoleApplication1
 {
     class Program
-<<<<<<< HEAD
+
  
 {
 //master
