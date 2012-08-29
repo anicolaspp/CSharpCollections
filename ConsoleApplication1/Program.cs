@@ -16,6 +16,7 @@ namespace ConsoleApplication1
         {
             var cod = Nikos.Algorithms.Huffman.Encode("hola");
 
+			//hola
             
         }
     }
