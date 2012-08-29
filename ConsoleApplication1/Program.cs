@@ -13,12 +13,7 @@ namespace ConsoleApplication1
  
 {
 //master
-=======
-    {
 
-	//brach 3
-
->>>>>>> testingconficts
 
         static void Main(string[] args)
         {
