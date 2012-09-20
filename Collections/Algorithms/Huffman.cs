@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Nikos.Collections;
 
@@ -17,7 +20,7 @@ namespace Nikos.Algorithms
             {
                 var x = heap.DeQueue();
                 var y = heap.DeQueue();
-                heap.EnQueue(new HNode { Left = x, Rigth = y, Key = ""[0], Count = x.Count + y.Count }, x.Count + y.Count);
+                heap.EnQueue(new HNode { Left = x, Rigth = y, Key = char.Parse(" "), Count = x.Count + y.Count }, x.Count + y.Count);
             }
 
             return heap.DeQueue();
@@ -46,6 +49,7 @@ namespace Nikos.Algorithms
             
             var cod = new System.Collections.Generic.Dictionary<char, string>();
             CreateHash(root, cod, "");
+
 
             return new Pair<string, IDictionary<char, string>> { Key = input.Select(item => cod[item]).Aggregate("", (x, y) => x + y), Value = cod };
         }
