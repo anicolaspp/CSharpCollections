@@ -2,6 +2,12 @@
 
 Some interesting `Collections` and `Data Structures` in C#.
 
+This lib can be added from NuGet using 
+
+```
+PM> Install-Package DataCollections -Version 1.0.0
+```
+
 # Basic Structures
 
 - Stack
